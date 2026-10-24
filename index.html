@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Civic Intel Group | Municipal Compliance & Lead Intelligence</title>
+    <style>
+        :root {
+            --primary: #1e3a8a;
+            --secondary: #3b82f6;
+            --dark: #0f172a;
+            --light: #f8fafc;
+            --accent: #2563eb;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+        body {
+            background-color: var(--light);
+            color: var(--dark);
+            line-height: 1.6;
+        }
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        section {
+            background: white;
+            margin-bottom: 2rem;
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+        p {
+            margin-bottom: 1rem;
+            color: #334155;
+        }
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+        .pricing-card {
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            padding: 2rem;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .pricing-card.featured {
+            border-color: var(--secondary);
+            box-shadow: 0 10px 15px -3px rgba(59, 130, 246, 0.15);
+        }
+        .price {
+            font-size: 2rem;
+            font-weight: bold;
+            color: var(--primary);
+            margin: 1rem 0;
+        }
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 4px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+            margin-top: 1rem;
+        }
+        .btn:hover {
+            background-color: var(--primary);
+        }
+        ul {
+            text-align: left;
+            margin: 1rem 0;
+            padding-left: 1.5rem;
+        }
+        ul li {
+            margin-bottom: 0.5rem;
+            color: #475569;
+        }
+        .contact-box, .legal-box {
+            font-size: 0.95rem;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #64748b;
+            font-size: 0.85rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Civic Intel Group</h1>
+        <p>Automated Municipal Code Intelligence & Local Lead Generation for Service Professionals</p>
+    </header>
+
+    <div class="container">
+
+        <!-- About / Services -->
+        <section>
+            <h2>Our Services</h2>
+            <p>Civic Intel Group provides high-precision data analytics and automated municipal lead generation pipelines tailored for local service companies, contractors, and property managers. We parse, filter, and deliver actionable public municipal data records directly to your workflow, saving hours of manual hunting and helping you connect with prospective clients instantly.</p>
+            <p>Our solutions ensure your business stays ahead of market demands by converting complex local government filing data into clear, revenue-ready opportunities.</p>
+        </section>
+
+        <!-- Pricing / Products -->
+        <section>
+            <h2>Data Intelligence Subscriptions</h2>
+            <p>Select the subscription tier that matches your regional pipeline scale. Fully automated digital delivery.</p>
+            
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div>
+                        <h3>Standard Regional Feed</h3>
+                        <div class="price">$250<span>/mo</span></div>
+                        <ul>
+                            <li>Automated daily public record parsing</li>
+                            <li>Targeted municipal zone monitoring</li>
+                            <li>Standard CSV / PDF data exports</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn">Get Started</a>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div>
+                        <h3>Enterprise Pipeline Pro</h3>
+                        <div class="price">$500<span>/mo</span></div>
+                        <ul>
+                            <li>Multi-zone high-income territory coverage</li>
+                            <li>Real-time automated invoice & report routing</li>
+                            <li>Priority webhook data feeds & support</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn">Subscribe Now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Customer Service Contact Details (Required by Stripe) -->
+        <section class="contact-box" id="contact">
+            <h2>Customer Service & Contact Details</h2>
+            <p><strong>Business Name:</strong> Civic Intel Group</p>
+            <p><strong>Operations Address:</strong> Manvel, TX 77578</p>
+            <p><strong>Email Support:</strong> <a href="mailto:support@civicintelgroup.com">support@civicintelgroup.com</a></p>
+            <p><strong>Phone Support:</strong> Available via client portal messaging / scheduled callbacks.</p>
+        </section>
+
+        <!-- Refund, Dispute & Cancellation Policy (Required by Stripe) -->
+        <section class="legal-box">
+            <h2>Refund, Dispute & Cancellation Policy</h2>
+            <p><strong>Subscriptions:</strong> You may cancel your data intelligence subscription at any time through your account dashboard or by contacting support. Cancellations take effect at the end of the current active billing cycle. No further charges will occur.</p>
+            <p><strong>Refunds:</strong> Because our service provisions immediate proprietary digital data feeds and automated processing scripts upon signup, digital intelligence subscriptions are generally non-refundable. Refund requests for billing errors or service interruptions are evaluated on a case-by-case basis within 7 days of the transaction.</p>
+            <p><strong>Disputes:</strong> We encourage clients to contact support directly to resolve any billing discrepancies prior to filing a formal dispute with financial institutions.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Civic Intel Group. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+
+</body>
+</html>
